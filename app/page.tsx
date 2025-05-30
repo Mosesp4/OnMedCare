@@ -18,7 +18,7 @@ const Home = ({ searchParams }: SearchParamProps) => {
             height={1000}
             width={1000}
             alt="patient"
-            className="mb-12 h-10 w-fit"
+            className="mb-8 h-20 w-fit"
           />
 
           <PatientForm />
@@ -35,7 +35,7 @@ const Home = ({ searchParams }: SearchParamProps) => {
       </section>
 
       <Image
-        src="/assets/images/onboarding-img.png"
+        src="/assets/images/onboarding-img.jpg"
         height={1000}
         width={1000}
         alt="patient"

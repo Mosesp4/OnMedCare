@@ -14,12 +14,14 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[860px] flex-1 justify-between">
           <Image
-            src="/assets/icons/logo-full.png"
-            height={1000}
-            width={1000}
-            alt="logo"
-            className="mb-12 h-10 w-fit"
-          />
+  src="/assets/icons/logo-full.png"
+  height={1000}
+  width={1000}
+  alt="logo"
+  className="mb-12 max-h-40 w-auto md:max-h-60"
+/>
+
+
 
           <AppointmentForm
             patientId={patient?.$id}
@@ -36,7 +38,7 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
         height={1500}
         width={1500}
         alt="appointment"
-        className="side-img max-w-[390px] bg-bottom"
+        className="side-img max-w-[490px] bg-bottom"
       />
     </div>
   );

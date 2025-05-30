@@ -15,10 +15,10 @@ const AdminPage = async () => {
         <Link href="/" className="cursor-pointer">
           <Image
             src="/assets/icons/logo-full.png"
-            height={32}
+            height={50}
             width={162}
             alt="logo"
-            className="h-8 w-fit"
+            className="h-12 w-fit"
           />
         </Link>
 
