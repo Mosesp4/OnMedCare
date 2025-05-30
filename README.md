@@ -1,7 +1,7 @@
 <div align="center">
   <br />
-      <img src="https://github.com/adrianhajdin/healthcare/assets/151519281/a7dd73b6-93de-484d-84e0-e7f4e299167b" alt="Project Banner">
-    </a>
+     <img src="https://github.com/user-attachments/assets/801d08d0-08ac-4187-bfe9-5b0f867d1352"
+
   <br />
 
   <div>
@@ -9,9 +9,10 @@
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
     <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
+    <img src="https://img.shields.io/badge/-Sentry-black?style=for-the-badge&logoColor=white&logo=sentry&color=000000" alt="sentry" />
   </div>
 
-  <h3 align="center">A HealthCare Management System</h3>
+  <h3 align="center">ONMED Care: A HealthCare Management System</h3>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -32,6 +33,7 @@ ONMED CARE is a healthcare patient management application that allows patients t
 - TailwindCSS
 - ShadCN
 - Twilio
+- Sentry
 
 ## <a name="features">🔋 Features</a>
 
@@ -70,8 +72,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/healthcare.git
-cd healthcare
+git clone https://github.com/Mosesp4/OnMedCare.git
+cd OnMedCare
 ```
 
 **Installation**
@@ -96,10 +98,8 @@ PATIENT_COLLECTION_ID=
 APPOINTMENT_COLLECTION_ID=
 NEXT_PUBLIC_BUCKET_ID=
 
-NEXT_PUBLIC_ADMIN_PASSKEY=111111
+NEXT_PUBLIC_ADMIN_PASSKEY=123456
 ```
-
-Replace the placeholder values with your actual Appwrite credentials. You can obtain these credentials by signing up on the [Appwrite website](https://appwrite.io/).
 
 **Running the Project**
 
