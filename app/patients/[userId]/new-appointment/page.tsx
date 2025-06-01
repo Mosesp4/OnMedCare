@@ -1,11 +1,9 @@
 import * as Sentry from "@sentry/nextjs";
 import Image from "next/image";
+import Link from "next/link";
 
 import { AppointmentForm } from "@/components/forms/AppointmentForm";
 import { getPatient } from "@/lib/actions/patient.actions";
-
-
-
 
 const Appointment = async ({ params: { userId } }: SearchParamProps) => {
   const patient = await getPatient(userId);
@@ -16,15 +14,15 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
     <div className="flex h-screen max-h-screen">
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[860px] flex-1 justify-between">
+          <Link href="/" className="cursor-pointer">
           <Image
-  src="/assets/icons/logo-full.png"
-  height={1000}
-  width={1000}
-  alt="logo"
-  className="mb-12 max-h-20 w-fit"
-/>
-
-
+            src="/assets/icons/logo-full.png"
+            height={1000}
+            width={1000}
+            alt="logo"
+            className="mb-12 max-h-20 w-fit"
+          />
+          </Link>
 
           <AppointmentForm
             patientId={patient?.$id}
