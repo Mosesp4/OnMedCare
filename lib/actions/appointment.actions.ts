@@ -97,10 +97,11 @@ export const sendSMSNotification = async (userId: string, content: string) => {
 };
 
 //  UPDATE APPOINTMENT
+
 export const updateAppointment = async ({
   appointmentId,
   userId,
-  timeZone,
+  timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone,
   appointment,
   type,
 }: UpdateAppointmentParams) => {

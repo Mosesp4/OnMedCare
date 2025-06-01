@@ -2,21 +2,21 @@
 import React from "react";
 
 const Navbar: React.FC = () => (
-  <nav className="bg-primary text-white p-4 flex justify-between items-center">
+  <nav className="bg-primary flex items-center justify-between p-4 text-white">
     <div className="text-2xl font-bold">OnMed Care</div>
-    <div className="flex gap-4 items-center">
+    <div className="flex items-center gap-4">
       <input
         type="text"
         placeholder="Search..."
-        className="p-2 rounded-md text-black"
+        className="rounded-md p-2 text-black"
       />
       <div className="relative">
-        <button className="p-2 bg-white text-primary rounded-md">Menu</button>
-        <div className="absolute mt-2 bg-white shadow-lg rounded-md p-2">
-          <a href="#benefits" className="block p-2 text-primary">
+        <button className="text-primary rounded-md bg-white p-2">Menu</button>
+        <div className="absolute mt-2 rounded-md bg-white p-2 shadow-lg">
+          <a href="#benefits" className="text-primary block p-2">
             Benefits
           </a>
-          <a href="#testimonials" className="block p-2 text-primary">
+          <a href="#testimonials" className="text-primary block p-2">
             Testimonials
           </a>
         </div>
