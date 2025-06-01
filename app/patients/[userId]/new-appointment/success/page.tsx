@@ -31,7 +31,7 @@ const RequestSuccess = async ({
             height={1000}
             width={1000}
             alt="logo"
-            className="h-10 w-fit"
+            className="h-20 w-fit"
           />
         </Link>
 

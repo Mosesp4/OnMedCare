@@ -21,8 +21,8 @@ const Register = async ({ params: { userId } }: SearchParamProps) => {
             src="/assets/icons/logo-full.png"
             height={1000}
             width={1000}
-            alt="logo"
-            className="mb-12 max-h-40 w-auto md:max-h-60"
+            alt="patient"
+            className="mb-12 h-20 w-fit"
           />
 
           <RegisterForm user={user} />
