@@ -3,6 +3,8 @@ import "./globals.css";
 import { Plus_Jakarta_Sans as FontSans } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import { cn } from "@/lib/utils";
 
 const fontSans = FontSans({
@@ -33,9 +35,11 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+        <Navbar />
         <ThemeProvider attribute="class" defaultTheme="dark">
           {children}
         </ThemeProvider>
+        <Footer />
       </body>
     </html>
   );
