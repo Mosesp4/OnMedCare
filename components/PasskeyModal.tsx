@@ -48,6 +48,7 @@ export const PasskeyModal = () => {
     setOpen(false);
     router.push("/");
   };
+  
 
   const validatePasskey = (
     e: React.MouseEvent<HTMLButtonElement, MouseEvent>

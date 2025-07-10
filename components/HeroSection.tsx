@@ -16,6 +16,7 @@ const HeroSection: React.FC = () => {
             <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl">
               Access quality healthcare anytime with ONMED Care.
             </p>
+            <div className='flex gap-4'>
             <Link href="/login" >
             <button
               className="inline-flex items-center mt-4 px-6 py-4 font-semibold text-black transition-all duration-200 bg-green-300 rounded-full lg:mt-5 hover:bg-green-400 focus:bg-green-400"
@@ -38,6 +39,8 @@ const HeroSection: React.FC = () => {
               </svg>
             </button>
             </Link>
+            </div>
+            
             
           </div>
           <div>

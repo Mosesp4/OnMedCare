@@ -15,20 +15,13 @@ const Register = async ({ params: { userId } }: SearchParamProps) => {
   if (patient) redirect(`/patients/${userId}/new-appointment`);
 
   return (
-    <div className="flex h-screen max-h-screen">
+    <div className="flex h-screen max-h-screen sm:mt-14">
       <section className="remove-scrollbar container">
         <div className="sub-container max-w-[860px] flex-1 flex-col py-10">
-          <Image
-            src="/assets/icons/logo-full.png"
-            height={1000}
-            width={1000}
-            alt="patient"
-            className="mb-12 h-20 w-fit"
-          />
 
           <RegisterForm user={user} />
 
-          <p className="copyright py-12">© 2024 OnMedCare</p>
+  
         </div>
       </section>
 

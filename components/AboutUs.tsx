@@ -6,13 +6,13 @@ const AboutUs: React.FC = () => {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-x-12 xl:gap-x-24 gap-y-12">
           <div className="relative lg:mb-12">
-            <Image
+            {/* <Image
               className="absolute -right-0 -bottom-8 xl:-bottom-12 xl:-right-4"
               src="/assets/images/dots-pattern.svg"
               alt="Dots pattern"
               width={100}
               height={100}
-            />
+            /> */}
             <div className="pl-12 pr-6">
               <Image
                 className="relative"

@@ -11,17 +11,8 @@ const Home = ({ searchParams }: SearchParamProps) => {
     <div className="flex h-screen max-h-screen">
       {isAdmin && <PasskeyModal />}
 
-      <section className="remove-scrollbar container my-auto">
+      <section className="remove-scrollbar container my-auto sm:pt-14">
         <div className="sub-container max-w-[496px]">
-          <Link href="/" className="cursor-pointer">
-          <Image
-            src="/assets/icons/logo-full.png"
-            height={1000}
-            width={1000}
-            alt="patient"
-            className="mb-8 h-20 w-fit"
-          />
-        </Link>
 
           <PatientForm />
 
